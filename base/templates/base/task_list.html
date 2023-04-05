@@ -16,8 +16,9 @@
 
     <div id="search-add-wrapper">
         <form method="get" style="margin-top: 20px; display: flex;">
-            <input type="text" name="search-area" value="{{search_intu}}">
-            <input class="button" type="submit" value="Search">
+            <input type="text" name="search-area" value="{{search_input}}">
+            <button id="search-button" type="submit"><i class="fa fa-search"></i></button>
+            <!-- <input class="button" type="submit" value="Search"> -->
         </form>
         <a id="add-link" href="{% url 'task-create' %}">&#x2b;</a>
     </div>
