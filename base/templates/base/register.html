@@ -6,14 +6,15 @@
     </div>
 
     <div class="card-body">
-        <form action="" method="post">
+        <form method="post">
             {% csrf_token %}
-            <label for="">{{form.username.label}}</label>
+            <!-- <label for="">{{form.username.label}}</label>
             {{form.username}}
             <label for="">{{form.password1.label}}</label>
             {{form.username}}
             <label for="">{{form.password2.label}}</label>
-            {{form.username}}
+            {{form.username}} -->
+            {{form.as_p}}
             <input style="margin-top: 10px;" class="btn btn-primary" type="submit" value="Register">
         </form>
         <p>Already have an ancount? <a href="{% url 'login' %}">Login</a></p>
