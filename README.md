@@ -2,7 +2,7 @@
 
 i create project for learn logic app to-do. Learn login and register user in database. Learn authentication. 
 
-![image](https://github.com/andrew18ned/to-do_list/blob/main/exemple.jpg)
+![image](exemple.jpg)
 
 ### Use:
 * Python web-framework Django  
